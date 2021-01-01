@@ -7,7 +7,7 @@ Please Using [flutter_svg](https://pub.dev/packages/flutter_svg) to showing the 
 
 ```
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:ant_design_icons_angular_icons/icons.dart';
+import 'package:atnd_icons/atnd_icons.dart';
 
 SvgPicture.string(
     AtndIcons.getAntdIcons("hello", IconsType.fill),
@@ -23,3 +23,6 @@ SvgPicture.string(
 * `flutter format .`
 
 ## Upload to PUB
+
+* `flutter pub publish --dry-run`
+* `flutter pub publish`
